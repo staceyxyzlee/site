@@ -289,11 +289,11 @@ img {
     }
 
     img, .caption, .slideshow-container {
-        width: 22rem;
+        width: 25rem;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     * {
         font-size: 0.85em;
     }
@@ -307,6 +307,6 @@ img {
     }
 
     img, .caption, .slideshow-container {
-        width: 18rem;
+        width: 21rem;
     }
 }

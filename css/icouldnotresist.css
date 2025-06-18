@@ -188,7 +188,7 @@ img {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 450px) {
     * {
         font-size: 0.9em;
     }
@@ -202,11 +202,11 @@ img {
     }
 
     img, .caption {
-        width: 26rem;
+        width: 27rem;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     * {
         font-size: 0.85em;
     }

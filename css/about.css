@@ -196,3 +196,12 @@ body {
         width: 23rem;
     }
 }
+
+ @media only screen 
+        and (device-width: 428px) 
+        and (device-height: 926px) 
+        and (-webkit-device-pixel-ratio: 3) { 
+            * {
+                font-size: 1.2em;
+            }
+        }

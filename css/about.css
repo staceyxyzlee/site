@@ -178,36 +178,3 @@ body {
         width: 26rem;
     }
 }
-
-@media (max-width: 300px) {
-    * {
-        font-size: 0.85em;
-    }
-
-    .nav-content {
-        line-height: 1rem;
-    }
-
-    .body-content {
-        padding-top: 12rem;
-    }
-
-    #text {
-        width: 23rem;
-    }
-}
-
-/*
- @media only screen 
-        and (device-width: 428px) 
-        and (device-height: 926px) 
-        and (-webkit-device-pixel-ratio: 3) { 
-            * {
-                font-size: 1.2em;
-            }
-
-            .nav {
-                font-size: 1rem;
-            }
-        }
-*/

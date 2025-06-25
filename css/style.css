@@ -2,10 +2,6 @@
     font-size: 1em;
 }
 
-html {
-    cursor: url("index.png"), auto;
-}
-
 body {
     font-family: helvetica;
     height: 100%;
@@ -156,11 +152,3 @@ body {
     }
 }
 
- @media only screen 
-        and (device-width: 428px) 
-        and (device-height: 926px) 
-        and (-webkit-device-pixel-ratio: 3) { 
-            * {
-                font-size: 1.2em;
-            }
-        }

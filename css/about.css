@@ -6,9 +6,7 @@ body {
     font-family: helvetica;
 }
 
-/*#region NAV*/
-
-.nav {
+/* .nav {
     position: fixed;
     font-size: 1.2rem;
 }
@@ -31,6 +29,11 @@ body {
 
 .nav-subhead {
     font-weight: bold;
+}
+
+#about {
+    color: white;
+    background-color: black;
 }
 
 #contact-links {
@@ -121,8 +124,7 @@ body {
 #five:hover {
     color: black;
     background-color: gold;
-}
-/*#endregion*/
+} */
 
 .body-content {
     display: flex;
@@ -138,10 +140,7 @@ body {
     width: 48rem;
 }
 
-#about {
-    color: white;
-    background-color: black;
-}
+
 
 @media (max-width: 800px) {
     * {

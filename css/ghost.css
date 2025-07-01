@@ -8,7 +8,7 @@ body {
 
 /*#region NAV*/
 
-.nav {
+/* .nav {
     position: fixed;
     font-size: 1.2rem;
 }
@@ -117,7 +117,7 @@ body {
 #five:hover {
     color: black;
     background-color: gold;
-}
+} */
 /*#endregion*/
 
 /*#region FORMAT*/

@@ -4,11 +4,32 @@
    <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
        <link rel="stylesheet" href="css/str8jacket.css">
+       <link rel="stylesheet" href="css/navbar.css">
        <style>
             @media (max-width: 430px) { 
                 * {
                     xfont-size: 1.1rem;
                 }
+
+                .body-content {
+                    max-width: 100vw;
+                    overflow-x: hidden;
+                }
+
+                .slideshow-container {
+                                        width: 23rem;
+                    justify-content: center;
+                }
+
+                img {
+                    width: 23rem;
+                    justify-content: center;
+                }
+
+                .caption {
+                    width: 23rem;
+                }
+
                 .caption-child {
                     font-size: 0.8rem;
                 }
@@ -21,17 +42,7 @@
    </head>
 
     <body>
-        <div class="nav">
-            <a href="index.html" class="staceylee"> STACEY LEE</a>
-            <a href="about.html" class="nav-content" id="contact-links">about</a>,
-            <span class="nav-content">contact @</span>
-            <a href="mailto:stacey.xyz.lee@gmail.com" class="nav-content" id="contact-links">[stacey.xyz.lee@gmail.com]</a>,
-            <a href="https://www.instagram.com/staceysshit/" target="_blank" class="nav-content" id="contact-links">[@staceysshit]</a>
-
-            <p class="nav-content">
-                <span class="nav-subhead">DESIGN</span> <a href="icouldnotresist.html" id="icnr">I COULD NOT RESIST [book design & installation]</a>, <a href="str8jacket.html" id="str8jacket">Str8jacket [in-house graphic designer]</a>, <a href="sibbys.html" id="sibbys">Sibby's [social media director]</a> <span class="nav-subhead">FILM</span> <a href="dinner.html" id="dinner">Dinner [short film]</a>, <a href="ghost.html" id="ghost">GHOST [animation]</a>, <a href="newyork.html" id="newyork">New York [16mm]</a>, <a href="found.html" id="found">found [animation]</a>, <a href="body.html" id="body">body [16mm]</a>, <a href="five.html" id="five">5 [animation]</a>
-            </p>
-        </div>
+        <div id="nav-placeholder"></div>
 
         <div class="jump-nav">
         <a href="#slumberparty-div" class="button">--&gt slumberparty 2025</a>
@@ -276,7 +287,7 @@
 
         </div> 
    </body>
-
+   <script src="js/navbar.js"></script>
    <script src="js/str8jacket.js"></script>
 
 </html>

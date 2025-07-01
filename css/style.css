@@ -7,7 +7,7 @@ body {
     height: 100%;
 }
 
-.nav {
+/* .nav {
     position: fixed;
     font-size: 1.2rem;
 }
@@ -30,6 +30,15 @@ body {
 
 .nav-subhead {
     font-weight: bold;
+}
+
+#about {
+    color: black;
+}
+
+#about:hover {
+    color: white;
+    background-color: black;
 }
 
 #contact-links {
@@ -120,7 +129,7 @@ body {
 #five:hover {
     color: black;
     background-color: gold;
-}
+} */
 
 @media (max-width: 700px) {
     * {

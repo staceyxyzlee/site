@@ -124,11 +124,11 @@ body {
 .body-content {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     padding-top: 9rem;
-    position: absolute;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 #slumberparty-div, #www-div, #holiday-div {
@@ -214,6 +214,7 @@ img {
   padding: 16px;
   margin-top: -22px;
   color: white;
+  mix-blend-mode: difference;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;

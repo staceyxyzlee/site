@@ -124,11 +124,11 @@ body {
 .body-content {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     padding-top: 9rem;
-    position: absolute;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 img {

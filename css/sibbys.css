@@ -4,6 +4,7 @@
 
 body {
     font-family: helvetica;
+    position: relative;
 }
 
 /*#region NAV*/
@@ -126,9 +127,10 @@ body {
     flex-direction: column;
     max-width: 100%;
     align-items: center;
+    position: relative;
     padding-top: 9rem;
     z-index: -1;
-    overflow-x: hidden;
+    xoverflow-x: hidden;
 }
 
 img {

@@ -4,6 +4,7 @@
 
 body {
     font-family: helvetica;
+    position: relative;
 }
 
 /*#region NAV*/
@@ -126,6 +127,7 @@ body {
     flex-direction: column;
     max-width: 100%;
     align-items: center;
+    position: relative;
     padding-top: 9rem;
     z-index: -1;
     overflow-x: hidden;
@@ -136,7 +138,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    z-index: -1;
+
 }
 
 img {
@@ -193,9 +195,13 @@ img {
 * {box-sizing: border-box}
 .awards, .judge, .merch, .stories, .coloring {
     display: flex;
+    position: relative;
+    z-index: -1;
 }
 img {
     vertical-align: middle;
+    position: relative;
+    z-index: -1;
 }
 
 /* Slideshow container */
@@ -203,6 +209,7 @@ img {
   max-width: 28rem;
   position: relative;
   margin: auto; 
+
 }
 
 /* Next & previous buttons */
@@ -220,10 +227,6 @@ img {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-.merch, .stories, .coloring, .prev, .next  {
-  xcolor: black;
 }
 
 /* Position the "next button" to the right */

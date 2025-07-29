@@ -1,0 +1,156 @@
+* {
+    font-size: 1em;
+}
+
+body {
+    font-family: helvetica;
+    position: relative;
+}
+
+/*#region FORMAT*/
+.body-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+    padding-top: 9rem;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+img {
+    width: 48rem;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    width: 48rem;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.caption-child {
+    width: 40%;
+    font-size: 0.9rem;
+}
+
+#caption-right {
+    width: 33%;
+    text-align: right;
+    font-style: italic;
+    font-size: 0.7rem;
+    
+}
+
+/*#endregion*/
+
+* {box-sizing: border-box}
+.au-revoir, .dogtooth, .lolita {
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+img {
+    vertical-align: middle;
+    position: relative;
+    z-index: -1;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 48rem;
+  position: relative;
+  margin: auto; 
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  mix-blend-mode: difference;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+    color: white;
+    font-size: 0.9rem;
+    padding: 12px 12px;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 00px) {
+    * {
+        font-size: 0.95em;
+    }
+
+    .nav-content {
+        line-height: 1.4rem;
+    }
+
+    .body-content {
+        padding-top: 10rem;
+    }
+
+    img, .caption {
+        width: 33rem;
+    }
+}
+
+@media (max-width: 450px) {
+    * {
+        font-size: 0.9em;
+    }
+
+    .nav-content {
+        line-height: 1.2rem;
+    }
+
+    .body-content {
+        padding-top: 11rem;
+    }
+
+    img, .caption {
+        width: 27rem;
+    }
+}
+
+@media (max-width: 400px) {
+    * {
+        font-size: 0.85em;
+    }
+
+    .nav-content {
+        line-height: 1rem;
+    }
+
+    .body-content {
+        padding-top: 12rem;
+    }
+
+    img, .caption {
+        width: 23rem;
+    }
+}

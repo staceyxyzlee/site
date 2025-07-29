@@ -10,7 +10,8 @@ body {
 
 .nav {
     position: fixed;
-    font-size: 1.2rem;
+    font-family: monospace;
+    font-size: 1rem;
 }
 
 .staceylee {
@@ -101,6 +102,20 @@ body {
 #sibbys.active {
     color: black;
     background-color: pink;
+}
+
+#letterbookd {
+    color: #ff8000;
+}
+
+#letterbookd:hover {
+    color: black;
+    background-color: #40bcf4;
+}
+
+#letterbookd.active {
+    color: black;
+    background-color: #40bcf4;
 }
 
 #dinner {

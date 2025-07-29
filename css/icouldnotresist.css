@@ -171,7 +171,7 @@ img {
     text-align: center;
 }
 
-@media (max-width: 00px) {
+@media (max-width: 600px) {
     * {
         font-size: 0.95em;
     }

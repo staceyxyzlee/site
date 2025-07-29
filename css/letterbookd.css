@@ -101,7 +101,7 @@ img {
 }
 
 
-@media (max-width: 00px) {
+@media (max-width: 600px) {
     * {
         font-size: 0.95em;
     }
@@ -114,7 +114,7 @@ img {
         padding-top: 10rem;
     }
 
-    img, .caption {
+    img, .caption, .slideshow-container {
         width: 33rem;
     }
 }
@@ -132,7 +132,7 @@ img {
         padding-top: 11rem;
     }
 
-    img, .caption {
+    img, .caption, .slideshow-container {
         width: 27rem;
     }
 }
@@ -150,7 +150,7 @@ img {
         padding-top: 12rem;
     }
 
-    img, .caption {
+    img, .caption, .slideshow-container {
         width: 23rem;
     }
 }

@@ -1,8 +1,9 @@
-var slideIndex = [1, 1, 1];
-var slideId = ["au-revoir", "dogtooth", "lolita"]
+var slideIndex = [1, 1, 1, 1];
+var slideId = ["au-revoir", "dogtooth", "lolita", "nymphomaniac"]
 showSlides(0, 0);
 showSlides(0, 1);
 showSlides(0, 2);
+showSlides(0, 3);
 
 function showSlides(n, no) {
   var x = document.getElementsByClassName(slideId[no]);

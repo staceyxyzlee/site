@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/apple.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <style>
+            @media (max-width: 430px) { 
+
+                .caption-child {
+                    font-size: 0.8rem;
+                }
+
+                #caption-right {
+                    font-size: 0.6rem;
+                }
+            }
+        </style>
+   </head>
+
+   <body>
+        <div id="nav-placeholder"></div>
+
+        <div class="body-content">
+            <div class="caption">
+                <p class="caption-child">
+                    A reimagining of Fiona Apple's discography as a book box set.
+                </p>
+                <p class="caption-child" id="caption-right">
+                    all covers were made whilst listening to corresponding album
+                </p>
+            </div>
+            <br>
+
+            <div class="slideshow-container">
+                <div class="covers">
+                    <img src="imgs/apple/1-tidal.png" style="width:100%">
+                </div>
+
+                <div class="covers">
+                    <img src="imgs/apple/2-pawn.png" style="width:100%">
+                </div>
+
+                <div class="covers">
+                    <img src="imgs/apple/3-extraordinary.png" style="width:100%">
+                </div>
+
+                <div class="covers">
+                    <img src="imgs/apple/4-idler.png" style="width:100%">
+                </div>
+
+                <div class="covers">
+                    <img src="imgs/apple/5-fetch.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="showSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="showSlides(1, 0)">&#10095;</a>
+            </div>
+
+            <div class="caption">
+                <p class="caption-child">
+                    
+                </p>
+                <p class="caption-child" id="caption-right">
+                    covers
+                </p>
+            </div>
+            <br>
+
+            <div class="slideshow-container">
+                <div class="spines">
+                    <img src="imgs/apple/spines.png" style="width:100%">
+                </div>
+
+                <div class="spines">
+                    <img src="imgs/apple/appleslices.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="showSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="showSlides(1, 1)">&#10095;</a>
+            </div>
+
+            <div class="caption">
+                <p class="caption-child">
+                    
+                </p>
+                <p class="caption-child" id="caption-right">
+                    spines
+                </p>
+            </div>
+            <br>
+
+            <div class="slideshow-container">
+                <div class="box">
+                    <img src="imgs/apple/box-spread.png" style="width:100%">
+                </div>
+
+                <div class="box">
+                    <img src="imgs/apple/boxes.png" style="width:100%">
+                </div>
+
+                <div class="box">
+                    <img src="imgs/apple/graphics.png" style="width:100%">
+                </div>
+
+                <div class="box">
+                    <img src="imgs/apple/layout.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="showSlides(-1, 2)">&#10094;</a>
+                <a class="next" onclick="showSlides(1, 2)">&#10095;</a>
+            </div>
+
+            <div class="caption">
+                <p class="caption-child">
+                    
+                </p>
+                <p class="caption-child" id="caption-right">
+                    packaging
+                </p>
+            </div>
+            <br>
+
+        </div>
+   </body>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/apple.js"></script>
+</html>

@@ -47,7 +47,7 @@ img {
 /*#endregion*/
 
 * {box-sizing: border-box}
-.au-revoir, .dogtooth, .lolita, .nymphomaniac, .witch, .barbarian {
+.covers, .spines, .box {
     display: flex;
     position: relative;
     z-index: -1;

@@ -66,6 +66,20 @@ body {
     background-color: black;
 }
 
+#apple {
+    color: darkred;
+}
+
+#apple:hover {
+    color: black;
+    background-color: #D7F099;
+}
+
+#apple.active {
+    color: black;
+    background-color: #D7F099;
+}
+
 #icnr {
     color: red;
 }
@@ -92,6 +106,20 @@ body {
 #str8jacket.active {
     color: black;
     background-color: #bec3e0;
+}
+
+#sunsets {
+    color:#FC2977;
+}
+
+#sunsets:hover {
+    color: black;
+    background-color: #FEFFC4;
+}
+
+#sunsets.active {
+    color: black;
+    background-color: #FEFFC4;
 }
 
 #sibbys {

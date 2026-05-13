@@ -15,7 +15,7 @@ body {
     padding-right: 0.5rem;
     font-family: monospace;
     font-size: 1rem;
-    mask: linear-gradient(to top, transparent, black 15%);
+    mask: linear-gradient(to top, transparent, black 20%);
     backdrop-filter: blur(3px);
 }
 
@@ -163,6 +163,20 @@ body {
 #dinner.active {
     color: black;
     background-color: tan;
+}
+
+#misc {
+    color: blue;
+}
+
+#misc:hover {
+    color: white;
+    background-color: blue;
+}
+
+#misc.active {
+    color: white;
+    background-color: blue;
 }
 
 #ghost {

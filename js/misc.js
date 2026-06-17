@@ -1,8 +1,9 @@
-var slideIndex = [1, 1, 1];
-var slideId = ["apple", "collin", "seatbelts"]
+var slideIndex = [1, 1, 1, 1];
+var slideId = ["apple", "collin", "seatbelts", "romantic"]
 showSlides(0, 0);
 showSlides(0, 1);
 showSlides(0, 2);
+showSlides(0, 3);
 
 
 function showSlides(n, no) {

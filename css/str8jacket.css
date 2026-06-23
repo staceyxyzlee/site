@@ -154,7 +154,7 @@ img {
 }
 
 .caption-child {
-    width: 40%;
+    width: 60%;
     font-size: 0.9rem;
 }
 
@@ -193,7 +193,7 @@ img {
 }
 
 * {box-sizing: border-box}
-.awards, .judge, .merch, .stories, .coloring {
+.champion-award, .body-award, .judge, .merch, .stories, .coloring {
     display: flex;
     position: relative;
     z-index: -1;

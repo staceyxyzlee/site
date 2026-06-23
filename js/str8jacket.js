@@ -1,10 +1,12 @@
-var slideIndex = [1,1,1,1,1];
-var slideId = ["awards", "judge", "merch", "stories", "coloring"]
+var slideIndex = [1,1,1,1,1,1,1];
+var slideId = ["champion-award", "judge", "merch", "stories", "coloring", "body-award", "music-award"]
 showSlides(0, 0);
 showSlides(0, 1);
 showSlides(0, 2);
 showSlides(0, 3);
 showSlides(0, 4);
+showSlides(0, 5);
+showSlides(0, 6);
 
 function showSlides(n, no) {
   var x = document.getElementsByClassName(slideId[no]);
